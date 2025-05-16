@@ -5,10 +5,10 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "mbtiles://tiles.mbtiles"
+      "url": "mbtiles://helsinki.mbtiles"
     }
   },
-  "sprite": "/styles/high-contrast-map-layer/sprite",
+  "sprite": "{styleJsonFolder}/sprite",
   "glyphs": "{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -706,8 +706,8 @@
         "text-max-width": 8,
         "text-offset": [0, 0.5],
         "text-size": {"stops": [[11, 20], [12, 30]]},
-        "visibility": "visible",
-        "text-transform": "none"
+        "text-transform": "none",
+        "visibility": "visible"
       },
       "paint": {
         "text-color": "rgba(0, 0, 0, 1)",
@@ -778,8 +778,7 @@
         "text-field": "{name:latin}\n{name:nonlatin}",
         "text-font": ["Lato Regular"],
         "text-max-width": 10,
-        "text-transform": "none",
-        "text-size": {"stops": [[3, 20], [8, 30]]}
+        "text-size": {"stops": [[3, 20], [8, 35]]}
       },
       "paint": {
         "text-halo-blur": 0,
